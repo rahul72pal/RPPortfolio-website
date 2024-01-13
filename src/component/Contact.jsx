@@ -37,14 +37,19 @@ export default function Contact(){
         </div>
       </div>
 
+       {/* ref={form} */}
+      {/* onClick={sendEmail} */}
       <div  className='contact'>
         <h1 className='clientpagetitile' >Contact Me</h1>
         <span className='contactdes'>Please Fill out the form below to discuse any work apportunities.</span>
-        <form id='contactmob' className='contactform' ref={form}>
+        <form id='contactmob' className='contactform' action="https://formspree.io/f/mvojdkqv"
+          method="POST"
+         
+          >
           <input type='text' name="form_name" className='name' placeholder='Your name' />
           <input type='email' name="form_email" className='email' placeholder='Your Email' />
           <textarea name="message" rows='5' className='msg' placeholder='Your Message'></textarea>
-          <button type='submit' value="Send" className='workbtn' onClick={sendEmail}>Submit</button>
+          <button type='submit' value="Send" className='workbtn' >Submit</button>
         </form>
       </div>
 
