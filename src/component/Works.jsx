@@ -12,25 +12,10 @@ export default function Works(){
       <h2 className='worktitle'>My Projects</h2>
       <span className='workdesc'>I take a pride in paying the attention to the smallest details and making sure thet my work is pixel perfect. i am excited to bring m skills and experience to help buisnesses achieve their goals and create a strong online presence</span>
       <div className='workimgs'>
-        <div className="imgdiv">
-          <img src={img1} width={400} height={500} className='workimg'></img>
-          <a href="https://exceltochart.rahulpal5.repl.co/" target="_blank" ><span>Excel to Charts</span></a >
-        </div>
-        <div className="imgdiv">
-          <img src={img2} className='workimg'></img>
-          <a href="https://weather-app.rahulpal5.repl.co/" target="_blank"><span>Weather App</span></a >
-        </div>
-        <div className="imgdiv">
-          <img src={img3} width={400} height={500} className='workimg'></img>
-          <a href="https://newcontactapp.rahulpal5.repl.co/" target="_blank"><span>Conatct App</span></a >
-        </div>
-        <div className="imgdiv">
-          <img src={img4} width={400} height={500} className='workimg'></img>
-          <a href="https://reactquizapp.rahulpal5.repl.co" target="_blank"><span>Quiz app</span></a >
-        </div>
-        {/* <img src={img4} className='workimg'></img> */}
-        <img src={img5} className='workimg'></img>
-        <img src={img6} className='workimg'></img>
+         <a className="text" href="https://github.com/vikassharma011/Netflix-Clone">Netflix-clone</a>
+         <a className="text" href="https://github.com/vikassharma011/Alumni_area">Alumni</a>
+         <a className="text" href="https://github.com/vikassharma011/File-System-Emulator">File system Emulator</a>
+         <a className="text" href="https://github.com/vikassharma011/food-order">Food Order App</a>
       </div>
       <button className='workbtn'>See more</button>
     </section>

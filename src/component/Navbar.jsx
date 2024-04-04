@@ -12,7 +12,7 @@ export default function Navbar(){
   
   return(
     <nav className="navbar">
-      <img src={logo} className='logo' width={350} height={350}/>
+      {/* <img src={logo} className='logo' width={350} height={350}/> */}
       <div className="desktopmenu">
         <Link activeClass='active'  to='intro' spy={true} smooth={true} offset={-100} className="desktopmenuitems" duration={700} >Home</Link>
         <Link activeClass='active'  to='skill' spy={true} smooth={true} offset={-100} className="desktopmenuitems" duration={500}>About</Link>
