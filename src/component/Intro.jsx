@@ -1,4 +1,4 @@
-import bg from '../assets/VikasSharma.jpg';
+import bg from '../assets/oie_12wwNwCY0gcq__1_-removebg-fotor-20230903154537.png';
 import btnimg from '../assets/hireme.png';
 import {Link} from 'react-scroll';
 import './Intro.css';
@@ -13,7 +13,7 @@ export default function Intro(){
         "Full Stack Developer",
         "Frontend Developer",
         "Web Developer",
-        "UI-UX Designer",
+        "UI-UX Developer",
         "Backend Developer",
         "Coder",
       ],
@@ -32,14 +32,14 @@ export default function Intro(){
     <section id='intro' className="intro">
       <div className="introcontent">
         <span className='hello'>Hello</span>
-        <span className='introtext'> I'm <span className='introname'>Vikash Sharma </span>  <br/> <span className='role'></span> </span>
+        <span className='introtext'> I'm <span className='introname'>Rahul Pal </span>  <br/> <span className='role'></span> </span>
         <p className='intropara'> I'm skill web developer and experience in creating <br/> the visually appealing and user friendly websites. </p>
-        <Link to=''>
+        <a href='https://www.linkedin.com/in/rahulpal-04233622b/'>
           <button className='btn'>  <img src={btnimg} className='btnimg'></img> Hire me </button>
-        </Link>
+        </a>
       </div>
       <div className="bg">
-        <img src={bg}  className='bgimg w-[100%] h-[200px] '  ></img>
+        <img src={bg} className='bgimg'  ></img>
       </div>
     </section>
   )

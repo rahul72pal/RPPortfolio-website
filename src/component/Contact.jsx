@@ -54,10 +54,10 @@ export default function Contact(){
       </div>
 
       <div className='links'>
-        <a href="https://www.linkedin.com/in/vikas-sharma-3b8639224/" target="_blank" ><img src={linkdin} className='link'></img></a >
-        <a href="https://github.com/vikassharma011/" target="_blank" ><img src={github} className='link'></img></a >
-        <a href="https://wa.me/7987477424" target="_blank"> <img src={whatsapp} className='link' ></img>  </a>
-        <a href="tel:7987477424" target="_blank"><img src={calling} className='link' ></img > </a>
+        <a href="https://www.linkedin.com/in/rahulpal-04233622b/" target="_blank" ><img src={linkdin} className='link'></img></a >
+        <a href="https://github.com/rahul72pal" target="_blank" ><img src={github} className='link'></img></a >
+        <a href="https://wa.me/8962113963" target="_blank"> <img src={whatsapp} className='link' ></img>  </a>
+        <a href="tel:8962113962" target="_blank"><img src={calling} className='link' ></img > </a>
       </div>
       
     </section>

@@ -28,7 +28,7 @@
   /* position: absolute; */
   padding: 0.2rem;
   object-fit: cover;
-  height:500px;
+  height:70vh;
   top: 0rem;
 }
 
@@ -63,6 +63,16 @@
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 2rem;
+}
+
+.btn:hover{
+  background: black;
+  color: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
 .btnimg{
